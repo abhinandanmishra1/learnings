@@ -1,0 +1,11 @@
+[
+  {
+    "ticket_id": "your_ticket_id",
+    "user_id": "abcdefgh",
+    "source": "Bangalore",
+    "destination": "Delhi",
+    "date_of_travel": "2023-12-08T18:30:00Z",
+    "train_id": "bacs",
+    "ticket_info": "Ticket ID: your_ticket_id belongs to User abcdefgh from Bangalore to Delhi on 2023-12-08T18:30:00Z"
+  }
+]

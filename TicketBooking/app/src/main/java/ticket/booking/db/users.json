@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Abhinandan Mishra",
+    "password": "12345",
+    "hashed_password": "$2a$10$MqonEcizso4Re9iFEMajHOIHCUd5O3Q.XZX779C50ZnC/Hb6mirwW",
+    "booked_tickets": [
+      "your_ticket_id"
+    ],
+    "user_id": "abcdefgh"
+  },
+  {
+    "name": "rahul",
+    "password": "hhbb11",
+    "hashed_password": "$2a$10$O/OWE.xh3gttMANiM4BIX.mo.4/myik1J739DZ25ecVENk8xhMCW2",
+    "booked_tickets": [],
+    "user_id": "fe46da4d-c8d1-4229-97e6-600dce6941e8"
+  }
+]

@@ -30,6 +30,9 @@ dependencies {
     // For persistence (if needed later)
     implementation 'org.hibernate:hibernate-core:6.4.4.Final'
     implementation 'com.h2database:h2:2.2.224'
+    
+    // JSON handling
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.6'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.

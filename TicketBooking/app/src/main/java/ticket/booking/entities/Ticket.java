@@ -3,10 +3,10 @@ package ticket.booking.entities;
 import java.util.Date;
 
 public class Ticket {
-    private String ticketId;
-    private String userId;
+    private String ticket_id;
+    private String user_id;
     private String source;
     private String destination;
-    private Date date;
-    private Train train;
+    private Date date_of_travel;
+    private String train_id;
 }
