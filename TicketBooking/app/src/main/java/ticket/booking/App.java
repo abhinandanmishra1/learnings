@@ -2,6 +2,7 @@ package ticket.booking;
 
 import ticket.booking.entities.User;
 import ticket.booking.services.LoginService;
+import ticket.booking.services.TrainService;
 
 import java.io.IOException;
 
@@ -9,6 +10,9 @@ public class App {
     public static void main(String[] args) {
         try {
             LoginService loginService = new LoginService();
+            TrainService trainService = new TrainService();
+
+            System.out.println(trainService.searchTrains("Bangalore", "Delhi"));
             User user = loginService.login("abcdefgh", "12345");
 
             if (user != null)
