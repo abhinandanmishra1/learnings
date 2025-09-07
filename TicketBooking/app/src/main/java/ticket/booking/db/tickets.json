@@ -4,8 +4,15 @@
     "user_id": "abcdefgh",
     "source": "Bangalore",
     "destination": "Delhi",
-    "date_of_travel": "2023-12-08T18:30:00Z",
-    "train_id": "bacs",
-    "ticket_info": "Ticket ID: your_ticket_id belongs to User abcdefgh from Bangalore to Delhi on 2023-12-08T18:30:00Z"
+    "date_of_travel": 1702060200000,
+    "train_id": "bacs"
+  },
+  {
+    "ticket_id": "java.util.Random@544a2ea6",
+    "user_id": "abcdefgh",
+    "source": "Bangalore",
+    "destination": "Delhi",
+    "date_of_travel": 1757218213357,
+    "train_id": "bacs"
   }
 ]
