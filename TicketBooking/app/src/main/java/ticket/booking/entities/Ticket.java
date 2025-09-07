@@ -1,7 +1,7 @@
 package ticket.booking.entities;
 
 import java.util.Date;
-import java.util.Random;
+import java.util.UUID;
 
 public class Ticket {
     private String ticket_id;
@@ -11,7 +11,8 @@ public class Ticket {
     private Date date_of_travel;
     private String train_id;
 
-    public Ticket() {}
+    public Ticket() {
+    }
 
     public Ticket(String user_id, String source, String destination, String train_id) {
         this.user_id = user_id;
@@ -19,7 +20,7 @@ public class Ticket {
         this.destination = destination;
         this.train_id = train_id;
         this.date_of_travel = new Date();
-        this.ticket_id = new Random().toString();
+        this.ticket_id = UUID.randomUUID().toString();
     }
 
     public String getTicket_id() {
