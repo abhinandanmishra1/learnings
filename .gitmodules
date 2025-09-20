@@ -1,3 +1,6 @@
 [submodule "springboot-learn"]
 	path = springboot-learn
 	url = https://github.com/abhinandanmishra1/springboot-learn.git
+[submodule "springboot-multiprojects"]
+	path = springboot-multiprojects
+	url = https://github.com/abhinandanmishra1/springboot-multiprojects.git
